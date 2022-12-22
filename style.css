@@ -1,0 +1,199 @@
+span {
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-left: 15px;
+    font-size: 18px;
+    /* font-weight: 600; */
+    color: rgb(255, 255, 255);
+    background-color: red;
+    width: 30px;
+    border-radius: 0 10px 10px 0;
+
+}
+
+body {
+    background-color: rgb(23, 58, 68);
+    margin: 0;
+    padding: 0;
+}
+
+#title {
+    /* background-color: red; */
+    margin-left: 10px;
+    text-shadow: 2px -2px 11px rgb(0, 242, 250);
+    margin-top: 3.8vh;
+    color: rgb(255, 255, 255);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 40px;
+    width: 70vw;
+
+}
+
+.btn {
+    border-radius: 7px;
+    width: 60px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    background-color: white;
+    cursor: pointer;
+}
+
+#btn1 {
+    width: 110px;
+    height: 43px;
+    font-size: 17px;
+    position: absolute;
+    top: 20px;
+    margin-left: 90vw;
+    border-radius: 12px;
+
+}
+
+:hover#btn1 {
+    background-color: rgb(255, 255, 255);
+    color: rgb(167, 0, 0);
+    border: 2px solid rgb(179, 0, 0);
+}
+
+header::before {
+    border: 2px solid yellow;
+    background: url(https://weeattogether.com/wp-content/uploads/2019/07/MaiTai-On-Dark-And-Stormy-Food-Photography-Backdrop-HORZ.jpg)no-repeat center center/cover;
+    position: fixed;
+    content: "";
+    width: 100vw;
+    height: 100vh;
+    z-index: -1;
+    top: 0;
+    left: 0;
+    opacity: 0.3;
+}
+
+#btn2 {
+    width: 250px;
+    height: 38px;
+    font-size: 21px;
+    margin-top: 10px;
+    position: absolute;
+    left: 20px;
+    top: 16vh;
+    border-radius: 15px;
+    background-color: white;
+}
+
+:hover#btn2 {
+    border: 2px solid rgb(0, 255, 42);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 107, 23);
+}
+
+:hover#btn3 {
+    border: 2px solid rgb(0, 255, 42);
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 107, 23);
+}
+
+
+.container {
+    /* background-color: red; */
+    position: absolute;
+    top: 330px;
+    height: 90px;
+    width: 40px;
+    /* background-color: red; */
+    /* position: absolute;
+        top: 220px;
+        left: 20px;
+        border-radius: 10px;
+        width: 400px;
+        font-size: 19px;
+        color: rgb(0, 0, 0);
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: rgb(114, 255, 173);
+        border: 2px solid rgb(234, 255, 0); */
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+ul li {
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 75vw;
+    /* height: 40px; */
+    background-color: rgb(255, 255, 255);
+    font-size: 17px;
+    text-align: left;
+    padding-left: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    line-height: 38px;
+    position: relative;
+    cursor: pointer;
+    display: block;
+    align-items: center;
+    /* background-color: red; */
+    /* margin-top: 90px; */
+}
+
+#btn3 {
+    width: 250px;
+    height: 38px;
+    font-size: 21px;
+    margin-top: 10px;
+    position: absolute;
+    left: 280px;
+    top: 16vh;
+    border-radius: 15px;
+    background-color: white;
+}
+
+@media (min-width:750px) and (max-width:1100px) {
+
+
+    #btn1 {
+        margin-left: 85vw;
+    }
+}
+
+@media (min-width:550px) and (max-width:750px) {
+
+
+    #btn1 {
+        margin-left: 80vw;
+    }
+}
+
+@media (min-width:0px) and (max-width:550px) {
+
+
+    #btn1 {
+
+        position: absolute;
+        top: 170px;
+        margin-left: 20px;
+        border-radius: 17px;
+        font-weight: 600;
+    }
+
+    #btn3 {
+        position: absolute;
+        top: 270px;
+        left: 20px;
+    }
+
+    #btn2 {
+        position: absolute;
+        top: 220px;
+
+    }
+
+    ul {
+        margin-top: 30px;
+
+    }
+
+}
